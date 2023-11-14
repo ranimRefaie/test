@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.menu a {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 600;
+}
+
+.logo {
+    padding-left: 0;
+}
+
+.navagiation {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.hamburger {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background-color: #000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.hamburger::before {
+    top: -10px;
+    width: 30px;
+}
+
+.hamburger::after {
+    top: 10px;
+    width: 30px;
+}
+
+.toggle-menu {
+    position: absolute;
+    height: 100%;
+    width: 30px;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.hamburger,
+.toggle-menu {
+    display: none;
+}
+
+.navagiation input:checked~.hamburger {
+    background-color: transparent;
+}
+
+.navagiation input:checked~.hamburger::before {
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+.navagiation input:checked~.hamburger::after {
+    top: 0;
+    transform: rotate(45deg);
+    width: 30px;
+}
+
+.navagiation input:checked~.menu {
+    left: 0;
+}
+
+
+a {
+    text-decoration: none !important;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000 !important;
+    padding: 0 10px;
+}
+
+a.active {
+    color: #eb0028 !important;
+}
+
+@media screen and (max-width:992px) {
+
+    .hamburger,
+    .toggle-menu {
+        display: block;
+    }
+
+    .menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: start;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        background-color: #f9f9f9;
+        /* width: 300px; */
+        height: 100%;
+        padding-top: 50px;
+        margin-top: 60px;
+        border-radius: 20px;
+        border: 1px solid #eb0028;
+    }
+
+    .menu a {
+        margin: 20px 0;
+    }
+}

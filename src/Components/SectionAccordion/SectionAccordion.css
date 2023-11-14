@@ -1,0 +1,33 @@
+#CUSTOMERS-LOVE {
+    background: url('./image/background-section.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 50px 0;
+
+}
+
+#CUSTOMERS-LOVE .Title-section h1 {
+    color: white;
+}
+
+#CUSTOMERS-LOVE .Title-section p {
+    color: #8a8a8a;
+}
+
+.imgmobail {
+    width: 100%;
+}
+
+.accordion {
+    --bs-accordion-bg: none !important;
+    --bs-accordion-color: #ffffff !important;
+    --bs-accordion-btn-color: #ffffff !important;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-active-color: none !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-border-radius: none !important;
+    --bs-accordion-inner-border-radius: none !important;
+}

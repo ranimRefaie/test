@@ -1,0 +1,30 @@
+.c-item {
+    height: 550px;
+    width: 100%;
+}
+
+.c-item .item-slide {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin: auto 5%;
+    width: 40px !important;
+    height: 40px !important;
+    background-color: black !important;
+    border-radius: 50%;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+    background-color: #eb0028 !important;
+}

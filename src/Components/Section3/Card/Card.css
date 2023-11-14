@@ -1,0 +1,12 @@
+#features {
+    margin-top: 250px;
+}
+
+#features .card .card-body p {
+    color: #8a8a8a;
+    padding: 15px 0;
+}
+
+#features .card {
+    border: none !important;
+}

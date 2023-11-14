@@ -1,0 +1,23 @@
+.card-tools img {
+    width: 140px;
+    margin: 20px auto;
+}
+
+.card-tools a {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-tools a:hover {
+    color: #eb0028 !important;
+}
+
+.card-tools p {
+    color: #8a8a8a;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+    font-size: 1rem;
+    padding-top: 5px;
+}

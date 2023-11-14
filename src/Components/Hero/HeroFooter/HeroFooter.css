@@ -1,0 +1,27 @@
+.hero-footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(155, 154, 154, 0.6);
+    ;
+    border-bottom: 1px solid rgba(190, 186, 186, 0.5);
+}
+
+.component-hero {
+    display: flex;
+    justify-content: center;
+}
+
+.component-hero img {
+    padding: 0 20px;
+}
+
+@media screen and (max-width:895px) {
+    .hero-footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

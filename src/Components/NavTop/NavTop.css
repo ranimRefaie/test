@@ -1,0 +1,26 @@
+.nav-top {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-top button {
+    position: absolute;
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    top: 10px;
+    right: 2%;
+}
+
+.nav-top button .remove {
+    color: #fff;
+}
+
+.nav-top button .remove:hover {
+    color: #eb0028;
+}

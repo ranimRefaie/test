@@ -1,0 +1,12 @@
+.footer-fixed {
+    display: flex;
+    background-color: #eb0028;
+    padding: 10px 0;
+}
+
+
+@media screen and (max-width:992px) {
+    .footer-fixed {
+        flex-direction: column;
+    }
+}
